@@ -79,19 +79,34 @@ These habits are not wrong. They are simply the natural result of using a powerf
 
 ## Success Test
 
-Level 0 is working when:
+Level 0 is working when you can start a fresh chat, paste your Starter Profile, ask a relevant question, and get a response that already reflects:
 
-- The AI gives useful responses to direct questions
-- You get value from individual conversations
-- Simple tasks (drafting, brainstorming, summarising, explaining) are faster with AI than without
+- who you are
+- what you are working on
+- how you prefer the assistant to work with you
 
-This is genuine value. Most people never need more than this for casual use.
+The test is simple:
+
+1. Open a new chat with any AI assistant.
+2. Paste your Starter Profile.
+3. Ask: "Based on this profile, help me with one task I am likely to care about."
+4. Check whether the response feels more relevant than a blank-chat answer.
+
+If the assistant understands your context without you re-explaining it, Level 0 is working.
+
+**First prompt to run:**
+
+Open a new chat, paste your Starter Profile, then add this on a new line:
+
+```
+Based on this profile, help me with one task I am likely to care about right now.
+```
 
 ---
 
-## Failure Modes
+## When Level 0 Starts To Feel Limited
 
-Level 0 breaks when:
+Level 0 starts to feel limited when:
 
 - You start a complex project that spans multiple sessions and lose context between them
 - You find yourself re-explaining the same background information every time you open a new chat
@@ -105,33 +120,16 @@ These failure modes are not catastrophic. They are friction. But friction compou
 
 ## Lessons Learned
 
+These are the patterns most people notice once they start using AI regularly.
+
 ### Chat history is not memory
+If you keep re-explaining your role, projects, preferences, or working style, your setup has no continuity. AI assistants do not reliably retain context between sessions unless you give them a structure to read.
 
-**What happens:** You find yourself re-explaining your role, your projects, your preferences, and your working style at the start of every new conversation. The AI has no continuity.
-
-**Why:** AI assistants do not retain information between sessions unless the platform explicitly provides memory features. Even then, the memory is shallow and unreliable. Treating chat history as durable memory leads to repeated work and lost context.
-
-**What to do:** Accept that every new chat starts from zero unless you build structure around it. The moment you notice yourself re-explaining the same things, you have outgrown Level 0.
-
----
-
-### Useful outputs vanish if not captured deliberately
-
-**What happens:** A well-crafted prompt, a useful framework, or a strong piece of reasoning appears in a chat and you think: "I'll come back to that." You rarely do. The chat is buried under newer ones, or closed entirely.
-
-**Why:** AI conversations are ephemeral by design. The interface is optimised for the current exchange, not for retrieval. If something valuable appears in a conversation and is not captured elsewhere, it is effectively lost.
-
-**What to do:** If an AI produces something you would want to use again, copy it out of the chat immediately — into a note, a document, a file, anything with a permanent address. Do not trust that you will find it later in chat history.
-
----
+### Useful outputs vanish unless you capture them
+Good prompts, frameworks, and decisions disappear quickly if they stay buried in chat history. If something is worth reusing, copy it into a note, document, or file with a permanent address.
 
 ### Re-establishing context costs more than maintaining it
-
-**What happens:** A significant portion of each new AI session is spent rebuilding context that existed in a previous session. The AI is productive once it understands the situation, but getting it there is slow and repetitive.
-
-**Why:** Context is the most expensive input in an AI workflow — not just in tokens, but in human time and cognitive load. Every minute spent re-explaining is a minute not spent on the actual task.
-
-**What to do:** When the cost of re-establishing context exceeds the cost of maintaining a simple notes file, it is time to move to Level 1.
+Every minute spent re-explaining old context is a minute not spent on the task. When rebuilding context becomes more expensive than keeping a simple notes file, you are ready for Level 1.
 
 ---
 
@@ -152,7 +150,7 @@ The fix is simple: one notes app, one source-of-truth document, one handover hab
 
 ## Upgrade Detection
 
-The [Starter Profile](./starter-profile.md) includes a standing instruction asking your assistant to watch for frustration signals during the conversation and ask a single question when they appear.
+The [Starter Profile](./starter-profile.md) includes one extra paragraph that asks your assistant to watch for frustration signals during the conversation and ask a single question when they appear.
 
 Signals the assistant watches for:
 
@@ -167,7 +165,7 @@ When the assistant detects these patterns it pauses and asks:
 
 If yes, the assistant shares the Level 1 guide link. If no, the conversation continues.
 
-This requires no external infrastructure. It fires within the session only. Cross-session detection requires Level 1 infrastructure.
+This works within a single session only — the assistant reads the profile and watches the conversation as it happens. Detecting patterns across multiple sessions requires a notes system, which is what Level 1 adds.
 
 ---
 

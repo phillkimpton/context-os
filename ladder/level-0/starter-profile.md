@@ -38,6 +38,10 @@ It takes five minutes. It is the only action at this level.
 
 The format of this file does not matter. What matters is that your assistant reads it.
 
+If your tool supports custom instructions, use those. If it does not, paste the profile as the first message in each new chat.
+
+Here is where to find custom instructions in common tools:
+
 | Tool | Where to put it |
 |---|---|
 | **Claude Code** | Save as your project instructions file in your project folder, or in your global Claude Code instructions for all projects |
