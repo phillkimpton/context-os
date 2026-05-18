@@ -221,6 +221,8 @@ It is an operating pattern for combining them with clearer boundaries, handovers
 
 ContextOS is designed to be adopted gradually. The Maturity Ladder gives you a clear path from first-time AI use to a full personal AI operating system — one level at a time.
 
+The ladder runs from Level 0 — using AI for the first time — to Level 6 — autonomous AI operations with human approval at defined gates. Most people get real value from Levels 0 to 2. Start at 0 regardless of where you think you are.
+
 | Level | Name | What it means |
 |---|---|---|
 | 0 | Basic AI Chat | One assistant, no structure. The starting point for everyone. |
