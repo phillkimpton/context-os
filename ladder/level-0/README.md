@@ -114,7 +114,7 @@ Level 0 starts to feel limited when:
 - You start relying on AI for work that matters (client deliverables, code, strategy) but have no way to verify, version, or recover what was produced
 - You are spending more time getting the AI up to speed than doing actual work
 
-These failure modes are not catastrophic. They are friction. But friction compounds. When the friction becomes noticeable, you are ready for Level 1.
+These are friction points, not failures. But friction compounds. When the friction becomes noticeable, you are ready for Level 1.
 
 ---
 
