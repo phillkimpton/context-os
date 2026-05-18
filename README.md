@@ -217,6 +217,26 @@ It is an operating pattern for combining them with clearer boundaries, handovers
 | Memory retrieval felt helpful but sometimes stale | Memory is treated as context, not canonical truth |
 | Admin overhead kept growing | The operating model improves through audits and lessons |
 
+## Maturity Ladder
+
+ContextOS is designed to be adopted gradually. The Maturity Ladder gives you a clear path from first-time AI use to a full personal AI operating system — one level at a time.
+
+| Level | Name | What it means |
+|---|---|---|
+| 0 | Basic AI Chat | One assistant, no structure. The starting point for everyone. |
+| 1 | Solo Starter | One notes app, one source-of-truth document, one handover habit. |
+| 2 | Advanced User | Multiple projects, version control, evidence discipline, basic role split. |
+| 3 | Expert User | Full personal AI operating system. Durable memory, operational state, skill registry, private vault. |
+| 4 | Team Coordinator | Shared standards, audit trails, and onboarding packs across a team. |
+| 5 | Enterprise Architect | Policy-as-code, compliance evidence, model routing by risk and cost. |
+| 6 | Autonomous Operator | Autonomous agent scheduling with human approval at defined gates. |
+
+Levels 0–3 are the public teaching path. They are tool-agnostic — you choose your own AI assistant, notes app, and version control. Levels 4–6 are the managed service and enterprise layer.
+
+**Start here:** [Level 0 — Basic AI Chat](ladder/level-0/README.md)
+
+---
+
 ## Quickstart
 
 ### 60-Second Start

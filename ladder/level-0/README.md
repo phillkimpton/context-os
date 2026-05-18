@@ -1,0 +1,174 @@
+# Level 0 — Basic AI Chat
+
+*Part of the [ContextOS Maturity Ladder](../../README.md#maturity-ladder).*
+
+---
+
+## Purpose
+
+This is the starting point. Everyone begins here.
+
+A person at Level 0 uses an AI assistant the way most people do: as a conversational tool. They open a chat, ask a question or give a task, get a response, and move on. There is no formal structure, no persistent memory, and no system for capturing what was useful.
+
+This level is not a failure state. It is where everyone starts. The goal of documenting it is to help people recognise where they are without feeling judged, and to show them what they gain by taking one small step forward.
+
+---
+
+## Starting State
+
+- Access to at least one AI assistant (any model, any interface)
+- No notes system connected to AI work
+- No source-of-truth document
+- No handover habit
+- No version control for AI-assisted work
+- Context lives in chat history or the user's head
+
+---
+
+## Minimum Setup
+
+There is one action at Level 0: create a simple Starter Profile.
+
+This is a short instruction document containing three things:
+
+- Who you are
+- What you are working on
+- How you prefer the AI to work with you
+
+For most tools, this can be pasted into custom instructions, project instructions, or the first message of a new chat. The specific format does not matter. What matters is that you stop re-explaining yourself from scratch every time.
+
+A ready-to-fill template is available at: [`starter-profile.md`](./starter-profile.md)
+
+Fill in three fields. Five minutes. You are now operating better than the vast majority of AI users.
+
+---
+
+## Tools Required
+
+**One AI assistant.** Any model, any interface. Browser, app, API, terminal. The specific tool does not matter at this level.
+
+No other tools are required. That is both the simplicity and the limitation.
+
+---
+
+## Operating Rules
+
+There are no formal operating rules at Level 0. That is part of what makes it Level 0.
+
+In practice, most Level 0 users develop informal habits:
+
+- Re-explain their context at the start of every new chat
+- Copy-paste useful outputs into documents or messages manually
+- Lose track of what they asked last week
+- Repeat similar prompts across sessions without realising
+- Trust the AI's memory (which does not exist between sessions in most tools)
+
+These habits are not wrong. They are simply the natural result of using a powerful tool without any supporting structure.
+
+---
+
+## Example Workflow
+
+**Task:** Write an email to a client about a project delay.
+
+**During:** Open an AI assistant. Type: "Help me write a professional email explaining that our project is delayed by two weeks due to a supply chain issue." Read the response. Copy it. Paste it into email. Send.
+
+**After:** Close the chat. The email is sent. The conversation is gone. If you need a similar email next month, you start from scratch.
+
+---
+
+## Success Test
+
+Level 0 is working when:
+
+- The AI gives useful responses to direct questions
+- You get value from individual conversations
+- Simple tasks (drafting, brainstorming, summarising, explaining) are faster with AI than without
+
+This is genuine value. Most people never need more than this for casual use.
+
+---
+
+## Failure Modes
+
+Level 0 breaks when:
+
+- You start a complex project that spans multiple sessions and lose context between them
+- You find yourself re-explaining the same background information every time you open a new chat
+- Useful outputs (a good prompt, a framework, a decision rationale) disappear into closed chats and cannot be found again
+- You start relying on AI for work that matters (client deliverables, code, strategy) but have no way to verify, version, or recover what was produced
+- You are spending more time getting the AI up to speed than doing actual work
+
+These failure modes are not catastrophic. They are friction. But friction compounds. When the friction becomes noticeable, you are ready for Level 1.
+
+---
+
+## Lessons Learned
+
+### Chat history is not memory
+
+**What happens:** You find yourself re-explaining your role, your projects, your preferences, and your working style at the start of every new conversation. The AI has no continuity.
+
+**Why:** AI assistants do not retain information between sessions unless the platform explicitly provides memory features. Even then, the memory is shallow and unreliable. Treating chat history as durable memory leads to repeated work and lost context.
+
+**What to do:** Accept that every new chat starts from zero unless you build structure around it. The moment you notice yourself re-explaining the same things, you have outgrown Level 0.
+
+---
+
+### Useful outputs vanish if not captured deliberately
+
+**What happens:** A well-crafted prompt, a useful framework, or a strong piece of reasoning appears in a chat and you think: "I'll come back to that." You rarely do. The chat is buried under newer ones, or closed entirely.
+
+**Why:** AI conversations are ephemeral by design. The interface is optimised for the current exchange, not for retrieval. If something valuable appears in a conversation and is not captured elsewhere, it is effectively lost.
+
+**What to do:** If an AI produces something you would want to use again, copy it out of the chat immediately — into a note, a document, a file, anything with a permanent address. Do not trust that you will find it later in chat history.
+
+---
+
+### Re-establishing context costs more than maintaining it
+
+**What happens:** A significant portion of each new AI session is spent rebuilding context that existed in a previous session. The AI is productive once it understands the situation, but getting it there is slow and repetitive.
+
+**Why:** Context is the most expensive input in an AI workflow — not just in tokens, but in human time and cognitive load. Every minute spent re-explaining is a minute not spent on the actual task.
+
+**What to do:** When the cost of re-establishing context exceeds the cost of maintaining a simple notes file, it is time to move to Level 1.
+
+---
+
+## Upgrade Trigger
+
+You are ready for Level 1 when any of these become true:
+
+1. You catch yourself re-explaining your background or preferences more than twice a week
+2. You lose a useful AI output and cannot find it again
+3. You start a project that will take more than one session and realise the AI has no idea what happened in the previous session
+4. You are spending more time getting the AI up to speed than doing the actual work
+
+These are observable, specific signals — not feelings. If one of these is true, you have outgrown Level 0.
+
+The fix is simple: one notes app, one source-of-truth document, one handover habit. That is Level 1.
+
+---
+
+## Upgrade Detection
+
+The [Starter Profile](./starter-profile.md) includes a standing instruction asking your assistant to watch for frustration signals during the conversation and ask a single question when they appear.
+
+Signals the assistant watches for:
+
+- Repeated re-explanation of the same background information within a session
+- Short sharp corrections: "no, not like that", "I've told you this before", "why do I keep explaining this"
+- Expressions of friction around context loss or memory
+- Starting a sentence with "again" or "as I said"
+
+When the assistant detects these patterns it pauses and asks:
+
+> "It sounds like you might be hitting the limits of this setup. Would you like to know how to fix that permanently?"
+
+If yes, the assistant shares the Level 1 guide link. If no, the conversation continues.
+
+This requires no external infrastructure. It fires within the session only. Cross-session detection requires Level 1 infrastructure.
+
+---
+
+*Next: Level 1 — Solo Starter (coming soon)*
